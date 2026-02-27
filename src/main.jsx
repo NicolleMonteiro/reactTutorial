@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { Header } from './components/Header/Header.jsx'
 import {Sobre} from './components/Sobre/Sobre.jsx'
+import {Contato} from './components/Contato/Contato.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,6 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header />
     <App />
     <Sobre categoria="sobreMim"/>
+    <Contato categoria="contato"/>
   </React.StrictMode>
 
 )
